@@ -6,7 +6,7 @@ export const toolbarDemoRoute: Route = {
     path: 'toolbar',
     component: ToolbarDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.panel.toolbar.title'
     },
     canActivate: [UserRouteAccessService]

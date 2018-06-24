@@ -6,7 +6,7 @@ export const inplaceDemoRoute: Route = {
     path: 'inplace',
     component: InplaceDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.misc.inplace.title'
     },
     canActivate: [UserRouteAccessService]

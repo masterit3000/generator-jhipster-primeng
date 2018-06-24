@@ -6,7 +6,7 @@ export const overlaypanelDemoRoute: Route = {
     path: 'overlaypanel',
     component: OverlayPanelDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.overlay.overlaypanel.title'
     },
     canActivate: [UserRouteAccessService]

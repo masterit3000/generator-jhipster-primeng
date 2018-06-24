@@ -6,7 +6,7 @@ export const datatableDemoRoute: Route = {
     path: 'datatable',
     component: DataTableDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.datatable.title'
     },
     canActivate: [UserRouteAccessService]

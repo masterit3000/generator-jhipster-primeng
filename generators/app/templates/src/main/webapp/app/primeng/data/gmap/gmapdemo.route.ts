@@ -6,7 +6,7 @@ export const gmapDemoRoute: Route = {
     path: 'gmap',
     component: GmapDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.gmap.title'
     },
     canActivate: [UserRouteAccessService]

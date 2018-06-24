@@ -6,7 +6,7 @@ export const paginatorDemoRoute: Route = {
     path: 'paginator',
     component: PaginatorDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.paginator.title'
     },
     canActivate: [UserRouteAccessService]

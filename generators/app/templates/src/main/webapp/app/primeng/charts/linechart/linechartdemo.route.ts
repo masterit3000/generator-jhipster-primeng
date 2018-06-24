@@ -6,7 +6,7 @@ export const linechartDemoRoute: Route = {
     path: 'linechart',
     component: LinechartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.charts.linechart.title'
     },
     canActivate: [UserRouteAccessService]

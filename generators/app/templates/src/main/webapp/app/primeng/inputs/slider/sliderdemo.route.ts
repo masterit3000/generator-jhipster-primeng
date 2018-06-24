@@ -6,7 +6,7 @@ export const sliderDemoRoute: Route = {
     path: 'slider',
     component: SliderDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.inputs.slider.title'
     },
     canActivate: [UserRouteAccessService]

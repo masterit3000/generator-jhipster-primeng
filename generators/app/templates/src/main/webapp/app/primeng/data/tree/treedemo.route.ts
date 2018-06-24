@@ -6,7 +6,7 @@ export const treeDemoRoute: Route = {
     path: 'tree',
     component: TreeDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.tree.title'
     },
     canActivate: [UserRouteAccessService]

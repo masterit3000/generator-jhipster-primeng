@@ -6,7 +6,7 @@ export const polarareachartDemoRoute: Route = {
     path: 'polarareachart',
     component: PolarareachartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.charts.polarareachart.title'
     },
     canActivate: [UserRouteAccessService]

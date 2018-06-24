@@ -6,7 +6,7 @@ export const spinnerDemoRoute: Route = {
     path: 'spinner',
     component: SpinnerDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.inputs.spinner.title'
     },
     canActivate: [UserRouteAccessService]

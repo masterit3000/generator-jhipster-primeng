@@ -6,7 +6,7 @@ export const tabviewDemoRoute: Route = {
     path: 'tabview',
     component: TabViewDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.panel.tabview.title'
     },
     canActivate: [UserRouteAccessService]

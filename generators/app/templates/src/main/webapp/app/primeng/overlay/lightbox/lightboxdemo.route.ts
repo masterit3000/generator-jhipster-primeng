@@ -6,7 +6,7 @@ export const lightboxDemoRoute: Route = {
     path: 'lightbox',
     component: LightboxDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.overlay.lightbox.title'
     },
     canActivate: [UserRouteAccessService]

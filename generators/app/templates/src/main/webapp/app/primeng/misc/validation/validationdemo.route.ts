@@ -6,7 +6,7 @@ export const validationDemoRoute: Route = {
     path: 'validation',
     component: ValidationDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.misc.validation.title'
     },
     canActivate: [UserRouteAccessService]

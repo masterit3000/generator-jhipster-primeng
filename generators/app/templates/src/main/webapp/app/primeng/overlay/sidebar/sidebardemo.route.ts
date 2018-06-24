@@ -6,7 +6,7 @@ export const sidebarDemoRoute: Route = {
     path: 'sidebar',
     component: SideBarDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.overlay.sidebar.title'
     },
     canActivate: [UserRouteAccessService]

@@ -6,7 +6,7 @@ export const datascrollerDemoRoute: Route = {
     path: 'datascroller',
     component: DataScrollerDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.datascroller.title'
     },
     canActivate: [UserRouteAccessService]

@@ -6,7 +6,7 @@ export const dragdropDemoRoute: Route = {
     path: 'dragdrop',
     component: DragdropDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.dragdrop.dragdrop.title'
     },
     canActivate: [UserRouteAccessService]

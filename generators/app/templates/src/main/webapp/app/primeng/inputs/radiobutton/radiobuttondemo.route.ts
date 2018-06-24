@@ -6,7 +6,7 @@ export const radiobuttonDemoRoute: Route = {
     path: 'radiobutton',
     component: RadioButtonDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.inputs.radiobutton.title'
     },
     canActivate: [UserRouteAccessService]

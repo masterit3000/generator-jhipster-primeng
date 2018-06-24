@@ -6,7 +6,7 @@ export const tieredmenuDemoRoute: Route = {
     path: 'tieredmenu',
     component: TieredMenuDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.menu.tieredmenu.title'
     },
     canActivate: [UserRouteAccessService]

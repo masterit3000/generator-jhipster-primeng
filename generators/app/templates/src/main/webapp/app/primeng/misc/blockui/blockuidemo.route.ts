@@ -6,7 +6,7 @@ export const blockuiDemoRoute: Route = {
     path: 'blockui',
     component: BlockUIDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.misc.blockui.title'
     },
     canActivate: [UserRouteAccessService]

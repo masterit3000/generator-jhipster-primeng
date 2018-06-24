@@ -1746,7 +1746,7 @@ module.exports = JhipsterGenerator.extend({
         // add element to menu
         let primengMenu;
         if (this.enableTranslation) {
-            primengMenu = `<li *ngSwitchCase="true" ngbDropdown class="nav-item dropdown pointer" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            primengMenu = `<li *ngSwitchCase="false" ngbDropdown class="nav-item dropdown pointer" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="primeng-menu">
                     <span>
                         <i class="fa fa-area-chart" aria-hidden="true"></i>

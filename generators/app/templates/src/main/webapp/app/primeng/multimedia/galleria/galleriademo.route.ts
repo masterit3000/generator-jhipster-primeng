@@ -6,7 +6,7 @@ export const galleriaDemoRoute: Route = {
     path: 'galleria',
     component: GalleriaDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.messages.galleria.title'
     },
     canActivate: [UserRouteAccessService]

@@ -6,7 +6,7 @@ export const barchartDemoRoute: Route = {
     path: 'barchart',
     component: BarchartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.charts.barchart.title'
     },
     canActivate: [UserRouteAccessService]

@@ -6,7 +6,7 @@ export const doughnutchartDemoRoute: Route = {
     path: 'doughnutchart',
     component: DoughnutchartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.charts.doughnutchart.title'
     },
     canActivate: [UserRouteAccessService]

@@ -6,7 +6,7 @@ export const piechartDemoRoute: Route = {
     path: 'piechart',
     component: PiechartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.charts.piechart.title'
     },
     canActivate: [UserRouteAccessService]

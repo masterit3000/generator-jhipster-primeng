@@ -6,7 +6,7 @@ export const terminalDemoRoute: Route = {
     path: 'terminal',
     component: TerminalDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.misc.terminal.title'
     },
     canActivate: [UserRouteAccessService]

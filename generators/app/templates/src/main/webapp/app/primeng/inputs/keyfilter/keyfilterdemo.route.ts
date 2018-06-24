@@ -6,7 +6,7 @@ export const keyFilterDemoRoute: Route = {
     path: 'keyfilter',
     component: KeyFilterDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.inputs.keyfilter.title'
     },
     canActivate: [UserRouteAccessService]

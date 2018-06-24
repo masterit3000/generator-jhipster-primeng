@@ -6,7 +6,7 @@ export const chipsDemoRoute: Route = {
     path: 'chips',
     component: ChipsDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.inputs.chips.title'
     },
     canActivate: [UserRouteAccessService]

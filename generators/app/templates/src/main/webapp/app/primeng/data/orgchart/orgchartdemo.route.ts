@@ -6,7 +6,7 @@ export const orgchartDemoRoute: Route = {
     path: 'orgchart',
     component: OrgChartDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.data.orgchart.title'
     },
     canActivate: [UserRouteAccessService]

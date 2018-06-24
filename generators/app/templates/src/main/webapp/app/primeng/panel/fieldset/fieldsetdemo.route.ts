@@ -6,7 +6,7 @@ export const fieldsetDemoRoute: Route = {
     path: 'fieldset',
     component: FieldsetDemoComponent,
     data: {
-        authorities: ['ROLE_USER'],
+         
         pageTitle: 'primeng.panel.fieldset.title'
     },
     canActivate: [UserRouteAccessService]
