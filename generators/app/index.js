@@ -907,7 +907,7 @@ module.exports = JhipsterGenerator.extend({
         },
         displayLogo() {
             // Have Yeoman greet the user.
-            this.log('');
+            this.log('MASTERIT3000');
             this.log(`${chalk.red('██████╗  ██████╗  ██╗ ███╗   ███╗ ███████╗ ███╗   ██╗  ██████╗')}`);
             this.log(`${chalk.red('██╔══██╗ ██╔══██╗ ██║ ████╗ ████║ ██╔════╝ ████╗  ██║ ██╔════╝')}`);
             this.log(`${chalk.red('██████╔╝ ██████╔╝ ██║ ██╔████╔██║ █████╗   ██╔██╗ ██║ ██║  ███╗')}`);

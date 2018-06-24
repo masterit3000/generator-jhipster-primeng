@@ -17,13 +17,13 @@
 
 This is a [JHipster](http://jhipster.github.io/) module, that is meant to be used in a JHipster application.
 
-The minimum required version of JHipster is **>=4.10.0**.(add resources manually for versions < 4.10.0)
+The  required version of JHipster is **>=4.14.4**.
 
 This module is used to generate components, using [PrimeNG](https://www.primefaces.org/primeng).
 
 <hr/>
 
-To encourage us and if you like the project then click start(💫)
+Thằng code ra cái này sai tóe loe, làm tao mất cả ngày để sửa(💫)
 <hr/> 
 
 # Prerequisites
@@ -45,13 +45,13 @@ yarn global add yo
 To install this module:
 
 ```bash
-yarn global add generator-jhipster-primeng
+yarn global add https://github.com/masterit3000/generator-jhipster-primeng.git
 ```
 
 To update this module:
 
 ```bash
-yarn global upgrade generator-jhipster-primeng
+yarn global upgrade https://github.com/masterit3000/generator-jhipster-primeng.git
 ```
 
 ## With NPM
@@ -59,13 +59,13 @@ yarn global upgrade generator-jhipster-primeng
 To install this module:
 
 ```bash
-npm install -g generator-jhipster-primeng
+npm install -g https://github.com/masterit3000/generator-jhipster-primeng.git
 ```
 
 To update this module:
 
 ```bash
-npm update -g generator-jhipster-primeng
+npm update -g https://github.com/masterit3000/generator-jhipster-primeng.git
 ```
 ## Getting Started
 
