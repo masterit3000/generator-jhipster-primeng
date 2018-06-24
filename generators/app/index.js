@@ -8,7 +8,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const BaseGenerator = require('generator-jhipster/generators/generator-base');
 const jhipsterConstants = require('generator-jhipster/generators/generator-constants');
-
+var _ = require('lodash');
 const JhipsterGenerator = generator.extend({});
 util.inherits(JhipsterGenerator, BaseGenerator);
 
@@ -1078,7 +1078,7 @@ module.exports = JhipsterGenerator.extend({
         this.clientFramework = this.jhipsterAppConfig.clientFramework;
         this.clientPackageManager = this.jhipsterAppConfig.clientPackageManager;
         this.protractorTests = this.jhipsterAppConfig.testFrameworks.indexOf('protractor') !== -1;
-        this.angular2AppName = this.getAngular2AppName();
+        this.angular2AppName = _.upperFirst(_.camelCase(this.baseName, true));
 
 
         // add dependencies
